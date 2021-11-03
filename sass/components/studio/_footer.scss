@@ -1,0 +1,155 @@
+.bottom {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: $footer-background-color;
+}
+
+.bottom-link {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.container-bottom {
+  display: flex;
+  align-items: baseline;
+}
+
+.bottom-left {
+  width: 231px;
+  margin-right: 70px;
+}
+
+.list-title {
+  margin-bottom: 9px;
+
+  color: $second-primary-text-color;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.list-contacts {
+  margin-bottom: 9px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.list-contacts .link {
+  color: rgba(255, 255, 255, 60%);
+
+  font-size: 14px;
+  line-height: 1.71;
+
+  transition: color 250ms $time-function;
+}
+
+.links {
+  margin-right: 93px;
+}
+
+.bottom-title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: $primary-background-color;
+}
+
+.bottom-icon-list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.bottom-icon-list-item .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: calc((100% - 102px) / 4);
+  width: 44px;
+  height: 44px;
+
+  color: $second-primary-text-color;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+
+  fill: currentColor;
+  transition: background-color 250ms $time-function;
+
+  &:hover,
+  &:focus {
+    background-color: $accent;
+  }
+}
+
+.bottom-icon-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+}
+
+.form-label {
+  position: absolute;
+  left: 16px;
+  top: 15px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  transition: transform 250ms $time-function;
+}
+
+.form-input {
+  height: 50px;
+  width: 358px;
+  padding-left: 16px;
+  color: $second-primary-text-color;
+  background-color: $footer-background-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  &:focus + .form-label,
+  &:not(:placeholder-shown) + .form-label {
+    transform: translateX(-75px);
+  }
+}
+
+.form-btn {
+  margin-left: 12px;
+  padding: 10px 29px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  color: $second-primary-text-color;
+  background: $accent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+
+.form-btn-icon {
+  margin-left: 10px;
+}
