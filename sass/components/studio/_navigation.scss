@@ -7,11 +7,11 @@
   padding-bottom: 25px;
 }
 
-.site-nav {
+.main-nav-list {
   display: flex;
   margin-left: 93px;
 
-  & .item:not(:last-child) {
+  & .main-nav-list-item:not(:last-child) {
     margin-right: 50px;
   }
 
@@ -21,7 +21,7 @@
   }
 }
 
-.site-nav .link {
+.main-nav-list .link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -36,7 +36,7 @@
   transition: color 250ms $time-function;
 }
 
-.list-contacts {
+.bottom-left-contacts {
   & .link:hover,
   & .link:focus {
     color: $accent;

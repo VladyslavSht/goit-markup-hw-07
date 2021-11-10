@@ -20,7 +20,7 @@
   margin-right: 70px;
 }
 
-.list-title {
+.bottom-left-title {
   margin-bottom: 9px;
 
   color: $second-primary-text-color;
@@ -30,7 +30,7 @@
   line-height: 1.71;
 }
 
-.list-contacts {
+.bottom-left-contacts {
   margin-bottom: 9px;
 
   &:last-child {
@@ -38,7 +38,7 @@
   }
 }
 
-.list-contacts .link {
+.bottom-left-contacts .link {
   color: rgba(255, 255, 255, 60%);
 
   font-size: 14px;
@@ -47,11 +47,11 @@
   transition: color 250ms $time-function;
 }
 
-.links {
+.social-net {
   margin-right: 93px;
 }
 
-.bottom-title {
+.social-net-title {
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 700;
@@ -62,14 +62,14 @@
   color: $primary-background-color;
 }
 
-.bottom-icon-list {
+.social-net-list {
   display: flex;
   align-items: center;
   margin: 0;
   padding-left: 0;
 }
 
-.bottom-icon-list-item .link {
+.social-net-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,16 +90,16 @@
   }
 }
 
-.bottom-icon-list-item:not(:last-child) {
+.social-net-list-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.form {
+.bottom-form {
   position: relative;
   display: flex;
 }
 
-.form-label {
+.bottom-form-label {
   position: absolute;
   left: 16px;
   top: 15px;
@@ -115,7 +115,7 @@
   transition: transform 250ms $time-function;
 }
 
-.form-input {
+.bottom-form-input {
   height: 50px;
   width: 358px;
   padding-left: 16px;
@@ -125,13 +125,13 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 
-  &:focus + .form-label,
-  &:not(:placeholder-shown) + .form-label {
+  &:focus + .bottom-form-label,
+  &:not(:placeholder-shown) + .bottom-form-label {
     transform: translateX(-75px);
   }
 }
 
-.form-btn {
+.bottom-form-btn {
   margin-left: 12px;
   padding: 10px 29px;
   font-weight: 700;
@@ -150,6 +150,6 @@
   border-style: none;
 }
 
-.form-btn-icon {
+.bottom-form-btn-icon {
   margin-left: 10px;
 }

@@ -1,13 +1,13 @@
-.btn {
+.filter {
   display: flex;
   justify-content: center;
 }
 
-.btn .item:not(:last-child) {
+.filter-item:not(:last-child) {
   margin-right: 8px;
 }
 
-.buttons {
+.filter-btn {
   padding: 6px 22px 6px 22px;
 
   font-family: inherit;

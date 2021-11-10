@@ -19,7 +19,7 @@
   flex-wrap: wrap;
 }
 
-.work-list .item {
+.work-list .work-list-item {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -37,7 +37,7 @@
   position: relative;
 }
 
-.work-text {
+.work-list-text {
   position: absolute;
   bottom: 0;
   left: 0;

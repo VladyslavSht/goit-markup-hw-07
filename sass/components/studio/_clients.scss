@@ -3,7 +3,7 @@
   flex-wrap: wrap;
 }
 
-.clients-list .item {
+.clients-list-item {
   width: calc((100% - 150px) / 6);
   margin-right: 30px;
   margin-bottom: 30px;
@@ -16,7 +16,7 @@
   }
 }
 
-.item-box {
+.clients-box {
   display: flex;
   justify-content: center;
   align-items: center;

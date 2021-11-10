@@ -1,5 +1,5 @@
-.contacts,
-.contacts .items {
+.header-contacts,
+.header-contacts .header-contacts-item {
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -7,7 +7,7 @@
   vertical-align: middle;
 }
 
-.contacts .items + .items {
+.header-contacts .header-contacts-item + .header-contacts-item {
   margin-left: 30px;
 }
 
@@ -18,7 +18,7 @@
   transition: color 250ms $time-function;
 }
 
-.items {
+.header-contacts-item {
   & .link:hover,
   & .link:focus {
     color: $accent;
@@ -29,7 +29,7 @@
   margin-right: 10px;
 }
 
-.contacts .link {
+.header-contacts .link {
   padding-top: 32px;
   padding-bottom: 32px;
   color: $secondary-text-color;
